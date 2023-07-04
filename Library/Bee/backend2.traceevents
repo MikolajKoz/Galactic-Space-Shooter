@@ -1,0 +1,322 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1688089683711066, "dur":29816, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688089683740888, "dur":248, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688089683741191, "dur":359, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688089683741689, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1688089683742713, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1688089683743157, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1688089683743709, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1688089683746293, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1688089683746404, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1688089683746509, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1688089683746694, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":0, "ts":1688089683741578, "dur":5222, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688089683746802, "dur":368267, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688089684115071, "dur":211, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688089684115283, "dur":83, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688089684115468, "dur":2314, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688089683741967, "dur":4850, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688089683746822, "dur":6028, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688089683754312, "dur":726, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1688089683755045, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1688089683755432, "dur":471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683755906, "dur":224, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683756132, "dur":423, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683756556, "dur":278, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683756836, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683757322, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683757561, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683757698, "dur":777, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683758477, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683758999, "dur":188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688089683759279, "dur":223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerb88499f0-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1688089683755043, "dur":4641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1688089683760085, "dur":87, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688089683760609, "dur":347329, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1688089684112567, "dur":256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1688089684112565, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1688089684112851, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1688089684113820, "dur":1279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683742017, "dur":4836, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683746858, "dur":857, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683747716, "dur":5136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683752873, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683753592, "dur":5920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1688089683759516, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1688089683763528, "dur":3591, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683759888, "dur":7245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1688089683767220, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1688089683769766, "dur":8234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1688089683778056, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683778054, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683781587, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683778357, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683781812, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter.exe" }}
+,{ "pid":12345, "tid":2, "ts":1688089683784455, "dur":31730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683816268, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683820823, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683824437, "dur":4665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683829145, "dur":10463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683842339, "dur":2130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683839665, "dur":4819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683844605, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683846656, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683848556, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683851401, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683854177, "dur":4691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683858935, "dur":26622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688089683885670, "dur":7222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688089683892933, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683898731, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683893025, "dur":5775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1688089683909799, "dur":102, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688089683898835, "dur":11094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688089683909952, "dur":205152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688089683742010, "dur":4821, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688089683746846, "dur":974, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688089683747820, "dur":5034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688089683752948, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683753029, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683753287, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683753520, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683753671, "dur":431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683754103, "dur":696, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683754801, "dur":222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683755025, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683755217, "dur":489, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683755708, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683755902, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683756169, "dur":355, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683756525, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683756781, "dur":438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683757220, "dur":263, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683757484, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683757658, "dur":828, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683758488, "dur":521, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683759010, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683759309, "dur":352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\PackageCache\\com.unity.burst@1.8.4\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":3, "ts":1688089683752865, "dur":6798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":3, "ts":1688089683759664, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688089683760186, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683760186, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683762582, "dur":2120, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688089683760657, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683764727, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1688089683764913, "dur":14395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1688089683779402, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683779400, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683779566, "dur":11996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683791705, "dur":4398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683798563, "dur":583, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688089683796295, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683799253, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683801275, "dur":23854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683825226, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683829198, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688089683829258, "dur":5745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683842931, "dur":1637, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688089683835102, "dur":9476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683844668, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683847039, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683848550, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683850250, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683853186, "dur":4946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683858221, "dur":4626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683862952, "dur":18595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683881614, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683881613, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688089683881684, "dur":233253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683742064, "dur":4801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683746870, "dur":905, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683747775, "dur":5082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683752881, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1688089683752865, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1688089683757695, "dur":9824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1688089683767576, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1688089683767574, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1688089683774103, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683769772, "dur":4470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1688089683774398, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688089683774396, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688089683774500, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683790979, "dur":12338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688089683810944, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683804037, "dur":7148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683819229, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683811305, "dur":8247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683819710, "dur":5423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683825164, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683830400, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683828865, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683830555, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683842355, "dur":2129, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683835287, "dur":9208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683844575, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683846769, "dur":6200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683853069, "dur":6101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683859274, "dur":4317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683863676, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683865154, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683869183, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683871245, "dur":369, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683877654, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688089683871619, "dur":9421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683881234, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688089683885703, "dur":5751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1688089683891482, "dur":19750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688089683911254, "dur":203855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683742111, "dur":4766, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683746883, "dur":435, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683747318, "dur":396, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683747715, "dur":5320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683753036, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1688089683757108, "dur":5364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1688089683762533, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1688089683762531, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1688089683762842, "dur":2484, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683773105, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683765340, "dur":7859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1688089683773297, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1688089683773915, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1688089683781522, "dur":103, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683775636, "dur":6009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1688089683781914, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1688089683783110, "dur":19227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1688089683802434, "dur":85, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683802523, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683804889, "dur":6657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683811633, "dur":3716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683815432, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projekty\\Unity_Projects\\Galactic Space Shooter\\Library\\PackageCache\\com.unity.burst@1.8.4\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683815430, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683815533, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683816910, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683820393, "dur":4108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683824531, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683830416, "dur":427, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683828592, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683830886, "dur":4136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683835170, "dur":4353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683839667, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683841828, "dur":1860, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683843693, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683846369, "dur":70, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683846474, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683848533, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683849758, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683854547, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683852420, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683857867, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683854744, "dur":3219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683858055, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683863112, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683860533, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683863302, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683865505, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683864576, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683868895, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683865746, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683869516, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683874100, "dur":8766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688089683882978, "dur":8592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688089683891918, "dur":61, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688089683891983, "dur":6961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1688089683898971, "dur":4116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1688089683903108, "dur":211968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688089683742152, "dur":4737, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688089683746893, "dur":884, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688089683747777, "dur":5082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688089683752882, "dur":202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1688089683752864, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1688089683763452, "dur":2040, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688089683757135, "dur":8371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1688089683765631, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688089683771963, "dur":5012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688089683777038, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688089683787698, "dur":279, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688089683780566, "dur":7874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688089683789051, "dur":20187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683810640, "dur":4733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683815475, "dur":6465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683822143, "dur":3340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683825530, "dur":9524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683837944, "dur":5912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683843949, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683846219, "dur":22779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683869094, "dur":281, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688089683871438, "dur":484, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688089683869378, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683872005, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683874832, "dur":7126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688089683882029, "dur":7608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1688089683889681, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1688089683891609, "dur":18356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1688089683909979, "dur":205122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688089683742199, "dur":4794, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688089683746996, "dur":1045, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688089683748042, "dur":4964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688089683753009, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1688089683763461, "dur":2600, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688089683754397, "dur":11674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1688089683766141, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1688089683766139, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1688089683766723, "dur":8576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1688089683775368, "dur":1179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1688089683777656, "dur":11104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1688089683788859, "dur":7550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683796473, "dur":17151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683813713, "dur":11978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683825762, "dur":4295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683830087, "dur":4918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683835118, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683838834, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683841463, "dur":1862, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688089683843333, "dur":21363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683864767, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683865966, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683869358, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683871837, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683874638, "dur":7911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688089683882628, "dur":8673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688089683891352, "dur":5115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1688089683896510, "dur":15507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688089683912037, "dur":203030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683742241, "dur":4883, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683747124, "dur":866, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683747990, "dur":5053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683753081, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1688089683753060, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1688089683756317, "dur":234, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683763676, "dur":4056, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683759866, "dur":7877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1688089683767859, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1688089683775773, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683769867, "dur":6003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1688089683775938, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1688089683777649, "dur":7404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1688089683785268, "dur":13136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683798523, "dur":3734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683802330, "dur":120, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683802454, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683804595, "dur":5935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683810664, "dur":4184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683814920, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683816848, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683819600, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683823419, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683826002, "dur":9017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683835067, "dur":6575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683841836, "dur":2553, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683844394, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683847506, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683847583, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683848647, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683849935, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683852698, "dur":3009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683855788, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683858578, "dur":97, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688089683858679, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683861634, "dur":19569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683881316, "dur":19080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projekty/Unity_Projects/GSP/Galactic Space Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688089683900481, "dur":214585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688089684123279, "dur":2124, "ph":"X", "name": "ProfilerWriteOutput" }
+,
